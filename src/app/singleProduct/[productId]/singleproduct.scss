@@ -1,0 +1,82 @@
+.product-conatinet{
+    
+    margin: 50px;
+    .product{
+     display: flex;
+     //justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 18px;
+     .img-btn{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .category{
+            color: rgb(192, 216, 236);
+            font-size: 25px;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        .title{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .delivery{
+            border-radius: 20px;
+            text-align: center;
+            padding: 5px;
+            width: 150px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: white;
+            background-color: rgba(24, 141, 51, 0.801);
+        }
+        button{
+        background-color: rgb(219, 44, 13);
+        padding: 5px;
+        border-radius: 3px;
+        margin-top: 10px;
+        font-weight: bold;
+        color: white;
+        &:active{
+            transform: scale(1.1);
+        }
+        
+        }
+
+     }
+     .price-des{
+        margin-top: 50px;
+        h1{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .price-discound{
+            display: flex;
+            font-size: 20px;
+            font-weight: 800;
+            gap: 20px;
+            .throw{
+                color: rgb(115, 118, 121);
+                
+                text-decoration:2px solid line-through;
+            }
+            .discount{
+                color: red;
+            }
+           
+
+        }
+        .desc{
+            max-width: 250px;
+        }
+
+     }
+
+
+    }
+    
+}

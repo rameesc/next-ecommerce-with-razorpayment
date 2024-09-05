@@ -1,0 +1,105 @@
+.cartt-container{
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+   
+    .cart-item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .cart-left{
+            width: 350px;
+           padding: 5px;
+           border-radius: 5px;
+            border: 1px solid rgb(3, 58, 22);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: rgb(195, 218, 238);
+            
+            .field{
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                h2{
+                    font-weight: bold;
+
+                }
+                span{
+                    font-weight: bold;
+                    color: rgb(5, 88, 12);
+
+
+                }
+                button{
+                   margin: 2px;
+                    background-color: rgb(177, 47, 8);
+                    font-weight: bold;
+                    padding: 5px;
+                    border-radius: 2px;
+                    color: aliceblue;
+
+                }
+                .delete{
+                    padding: 5px;
+                    border-radius: 3px;
+                    background-color: red;
+                    color: aliceblue;
+                    font-weight: bold;
+                }
+                
+            }
+        }
+
+
+    }
+    .cart-right{
+        
+        border-radius: 2px;
+        width: 400px;
+        height: 400px;
+        background-color: rgb(255, 252, 248);
+       
+        box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.411);
+
+        .cart{
+            padding: 10px;
+            h1{
+                font-size: 25px;
+                font-weight: bold;
+            }
+            table{
+                border-collapse: collapse;
+                border: 1px solid black;
+                td{
+                    border: 1px solid black;
+                    padding: 2px;
+
+                }
+               thead{
+                tr{
+                    border: 1px solid black;
+                }
+               }
+               tbody{
+                tr{
+                    border: 1px solid black;
+                }
+               }
+            }
+            .place-order{
+                background-color: green;
+                color: aliceblue;
+                font-weight: bold;
+                padding: 5px;
+                border-radius: 2px;
+            }
+        }
+
+    }
+
+    
+}

@@ -1,0 +1,116 @@
+.account-container{
+   margin: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+
+   .userinfo-admin{
+    border: 2px solid black;
+    padding: 5px;
+
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .field{
+        label{
+            font-weight: bold;
+            font-size: 25px;
+            color: red;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    button{
+        width: 200px;
+        padding: 5px;
+        border-radius: 2px;
+        cursor: pointer;
+        background-color:green;
+        color: aliceblue;
+        margin: 5px;
+    }
+   }
+   .user-all-orders{
+    //margin-top: 80px;
+    //border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+
+    h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+    }
+    .orders{
+        margin-top: 80px;
+      border: 2px solid black;
+        .date{
+            h1{
+                color: black;
+                font-size: 15px;
+            }
+        }
+    }
+    .payment,.bill{
+        p{
+            color: black;
+            font-weight: bold;
+                font-size: 15px;
+        }
+
+    }
+    .delivery{
+        border: 2px solid black;
+        margin: 5px;
+        padding: 5px;
+        p{
+            font-weight: bold;
+            span{
+                color: rgb(31, 80, 145);
+                font-weight: bold;
+                padding: 5px;
+            }
+        }
+    }
+    .order-items{
+
+        table{
+            width: 50%;
+            text-align: center;
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 5px;
+            margin: 20px;
+
+            thead{
+                padding: 5px;
+                tr,td{
+                    font-weight: bold;
+                    border: 2px solid black;
+
+                }
+
+            }
+            tbody{
+                padding: 5px;
+                tr{
+                    
+                    td{
+                        border: 2px solid black;
+                        img{
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}

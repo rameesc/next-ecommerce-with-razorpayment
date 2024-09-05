@@ -1,0 +1,16 @@
+
+.most-selling-product{
+    margin: 50px 0px 0px 50px;
+    .most-selling{
+        h1{
+            font-size: 35px;
+            font-weight: 600;
+        }
+    }
+    .product-container{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+}

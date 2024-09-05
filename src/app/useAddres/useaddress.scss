@@ -1,0 +1,101 @@
+.address-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 5px;
+
+    margin-bottom: 10px;
+
+    .header{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .address-collection{
+      background-color: rgb(113, 134, 134);
+  
+
+      display: flex;
+      width: 800px;
+      justify-content: space-between;
+      margin: 20px;
+      padding: 10px;
+      .create-address-btn{
+        background-color: rgb(10, 94, 31);
+        height: 35px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 5px;
+        color: aliceblue;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.384);
+        cursor: pointer;
+        position: relative;
+        &::after{
+            content: ' ';
+           bottom: 0%;
+            left: 0%;
+            width: 0%;
+            height: 100%;
+           // transition: all ease-in-out 2s;
+            border-radius: 5px;
+            border: 2px solid black;
+            position: absolute;
+           // z-index: -1;
+           
+        }
+        &:hover::after{
+            display: block;
+            width: 100%;
+        
+            transition: all ease-in-out 2s;
+            border: 2px solid rgb(245, 237, 237);
+
+        }
+      }
+
+
+    }
+    .all-address{
+        width: 400px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: aliceblue;
+        .address{
+            h1{
+                font-size: 20px;
+                span{
+                    color: red;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            }
+            .btn{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                button{
+                    width: 150px;
+                    padding: 5px;
+                    color: aliceblue;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    &:nth-child(1){
+                        background-color: rgb(177, 89, 8);
+                    }
+                    &:nth-child(2){
+                        background-color: rgb(49, 48, 47);
+                    }
+                    &:active{
+                        transform: scale(0.8);
+                    }
+                }
+            }
+        }
+    }
+    .create-add{
+        //position: relative;
+    }
+}

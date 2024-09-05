@@ -1,0 +1,20 @@
+.all-product{
+    margin: 50px;
+
+    h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .product-conatiner{
+
+        .product-cart{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            gap: 10px;
+        }
+
+
+    }
+}

@@ -1,0 +1,85 @@
+.order-container{
+    width: 100%;
+    margin: 20px;
+    .address-to-delivery{
+        //background-color: aqua;
+        display: flex;
+        justify-content: center;
+       
+        gap: 10px;
+        flex-direction: column;
+        h1{
+            font-size: 30px ;
+            font-weight: bold;
+        }
+        .address{
+            border: 2px solid black;
+            width: 400px;
+            border-radius: 5px;
+            padding: 5px;
+            .field{
+                label{
+                    color: red;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                p{
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+
+        }
+        .orders{
+            border: 2px solid black;
+            width: 400px;
+            border-radius: 5px;
+            padding: 5px;
+            table{
+                border-collapse:collapse;
+                border: 1px solid black;
+                padding: 10px;
+                border-radius: 5px;
+                tr,td{
+                    border: 1px solid black;
+
+                }
+                td{
+                    font-weight: bold;
+                }
+            }
+            span{
+                color: red;
+            }
+
+        }
+        .payemt-method{
+            border: 2px solid black;
+            width: 400px;
+            border-radius: 5px;
+            padding: 5px;
+            .field{
+                label{
+                    color: red;
+                    font-weight: bold;
+                    padding: 5px;
+                }
+            }
+
+        }
+        .check-out{
+            button{
+                width: 200px;
+                cursor: pointer;
+                padding: 5px;
+                background-color: green;
+                color: aliceblue;
+                font-weight: bold;
+                border-radius: 5px;
+                &:active{
+                    transform: scale(0.5);
+                }
+            }
+        }
+    }
+}
